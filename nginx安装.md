@@ -9,8 +9,9 @@
    (b)若报错：./configure: error: the HTTP rewrite module requires the PCRE library.   
    则需要执行：yum -y install pcre-devel  
    (c) 报错：./configure: error: the HTTP gzip module requires the zlib library.  
-   执行：yum install -y zlib-devel	  
-     
+   执行：yum install -y zlib-devel	 
+   执行：./configure
+   
 6, make  
 7, sudo make install  
 8, 执行完毕后， nginx 即安装到 /usr/local/nginx 目录  
