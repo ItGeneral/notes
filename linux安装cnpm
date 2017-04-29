@@ -1,0 +1,4 @@
+1、首先安装nodejs  
+2、执行命令：`npm i -g cnpm`  
+3、设置软连接，使之成为全局变量：`ln -s /usr/local/nodejs/lib/node_modules/cnpm/bin/cnpm /usr/local/bin/`  
+4、查看是否安装成功：`cnpm -version`
