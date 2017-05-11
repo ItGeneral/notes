@@ -1,5 +1,5 @@
 ## 安装angular2 to angular4  
-1、先安装node和npm  
+1、先安装node和npm，最好安装node最新的几个版本，不然angular4不能支持    
 2、全局安装angular-cli: `npm isntall -g @angular/cli`  
 3、检验是否安装好：ng -v  
 4、新建angular2项目: ng new my-app  
