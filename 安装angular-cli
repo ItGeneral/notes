@@ -1,0 +1,13 @@
+## 安装angular2 to angular4  
+1、先安装node和npm  
+2、全局安装angular-cli: `npm isntall -g @angular/cli`  
+3、检验是否安装好：ng -v  
+4、新建angular2项目: ng new my-app  
+5、cd my-app, nr serve  
+6、将angular2升级到angular4，windows执行下面的命令：  
+`npm i @angular/common@next @angular/compiler@next @angular/core@next @angular/forms@next @angular/http@next @angular/platform-browser@next @angular/platform-browser-dynamic@next
+@angular/platform-server@next @angular/router@next typescript@latest --S -E`  
+`npm i @angular/compiler-cli@next --D -E`  
+linux或ios执行下面的命令：  
+`npm i @angular/{common,compiler,core,forms,http,platform-browser,platform-browser-dynamic,platform-server,router}@next typescript@latest –S –E`  
+`npm i @angular/compiler-cli@next --D -E`  
